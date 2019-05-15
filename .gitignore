@@ -1,0 +1,11 @@
+### macOS ###
+.DS_Store
+
+### rbenv ###
+.ruby-version
+
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
