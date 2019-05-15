@@ -1,0 +1,29 @@
+@import '../_variables';
+
+.login__submission-input {
+  border: 1px solid $twitter-blue;
+  border-radius: 25px;
+  color: $twitter-blue;
+  font-size: 14px;
+  height: 45px;
+  width: 100%;
+}
+
+.login-or-signup__button {
+  border-radius: 25px;
+  font-size: 14px;
+  height: 35px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.login-or-signup__button--signup {
+  background-color: $twitter-blue;
+  border: 1px solid $twitter-blue;
+  color: $white;
+}
+
+.login-or-signup__button--login {
+  border: 1px solid $twitter-blue;
+  color: $twitter-blue;
+}

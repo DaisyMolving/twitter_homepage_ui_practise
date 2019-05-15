@@ -1,0 +1,10 @@
+@import '../_variables';
+
+.login__text-input {
+  border: solid 1px $light-grey;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 45px;
+  padding: 0px;
+  width: 95%;
+}

@@ -1,0 +1,11 @@
+@import '../_variables';
+
+.benefits__list {
+  align-items: center;
+  color: $white;
+  font-size: 18px;
+  display: grid;
+  height: 150px;
+  margin: 0px;
+  list-style-type: none;
+}

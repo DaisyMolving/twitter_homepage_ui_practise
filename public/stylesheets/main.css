@@ -6,31 +6,30 @@ body {
   margin: 0px;
   padding: 0px; }
 
+.login-or-signup__title {
+  font-size: 27px;
+  margin: 15px 0px 45px 0px; }
+
+.login-or-signup__subtitle {
+  font-size: 18px;
+  margin: 0px; }
+
 .content {
   display: grid;
   grid-template-columns: 50% 50%; }
 
-.content__half--left {
-  background-color: #1A95E0;
+.content__half {
   display: grid;
   grid-template-rows: 1fr 2fr 1fr; }
+
+.blue-background {
+  background-color: #1A95E0; }
 
 .benefits {
   grid-row-start: 2;
   place-self: center; }
 
-.benefits__list {
-  align-items: center;
-  color: #FFFFFF;
-  font-size: 18px;
-  display: grid;
-  height: 150px;
-  margin: 0px;
-  list-style-type: none; }
-
-.content__half--right {
-  display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
+.centered {
   justify-items: center; }
 
 .login {
@@ -39,18 +38,10 @@ body {
   margin-top: 30px;
   width: 80%; }
 
-.login__text-input {
-  border: solid 1px #ECECEC;
-  border-radius: 5px;
-  font-size: 14px;
-  height: 45px;
-  padding: 0px;
-  width: 95%; }
-
-.login__forgot-password-link {
-  color: #C3C3C3;
-  font-size: 14px;
-  text-decoration: none; }
+.login-or-signup {
+  align-items: center;
+  display: grid;
+  max-width: 380px; }
 
 .login__submission-input {
   border: 1px solid #1A95E0;
@@ -59,24 +50,6 @@ body {
   font-size: 14px;
   height: 45px;
   width: 100%; }
-
-.login-or-signup {
-  align-items: center;
-  display: grid;
-  max-width: 380px; }
-
-.login-or-signup__bird-icon {
-  background-color: #1A95E0;
-  height: 45px;
-  width: 45px; }
-
-.login-or-signup__title {
-  font-size: 27px;
-  margin: 15px 0px 45px 0px; }
-
-.login-or-signup__subtitle {
-  font-size: 18px;
-  margin: 0px; }
 
 .login-or-signup__button {
   border-radius: 25px;
@@ -93,6 +66,33 @@ body {
 .login-or-signup__button--login {
   border: 1px solid #1A95E0;
   color: #1A95E0; }
+
+.login__text-input {
+  border: solid 1px #ECECEC;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 45px;
+  padding: 0px;
+  width: 95%; }
+
+.benefits__list {
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 18px;
+  display: grid;
+  height: 150px;
+  margin: 0px;
+  list-style-type: none; }
+
+.login__forgot-password-link {
+  color: #C3C3C3;
+  font-size: 14px;
+  text-decoration: none; }
+
+.login-or-signup__bird-icon {
+  background-color: #1A95E0;
+  height: 45px;
+  width: 45px; }
 
 .footer {
   background-color: #FDFDFD;
