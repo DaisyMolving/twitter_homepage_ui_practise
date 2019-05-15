@@ -21,7 +21,7 @@ body {
 
 .benefits__list {
   align-items: center;
-  color: white;
+  color: #FFFFFF;
   font-size: 18px;
   display: grid;
   height: 150px;
@@ -48,7 +48,7 @@ body {
   width: 95%; }
 
 .login__forgot-password-link {
-  color: #C1C1C1;
+  color: #C3C3C3;
   font-size: 14px;
   text-decoration: none; }
 
