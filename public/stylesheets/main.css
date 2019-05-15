@@ -1,0 +1,117 @@
+body {
+  display: grid;
+  font-family: "Helvetica Neue";
+  grid-template-rows: 1fr 45px;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px; }
+
+.content {
+  display: grid;
+  grid-template-columns: 50% 50%; }
+
+.content__half--left {
+  background-color: #1A95E0;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr; }
+
+.benefits {
+  grid-row-start: 2;
+  place-self: center; }
+
+.benefits__list {
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  display: grid;
+  height: 150px;
+  margin: 0px;
+  list-style-type: none; }
+
+.content__half--right {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  justify-items: center; }
+
+.login {
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr;
+  margin-top: 30px;
+  width: 80%; }
+
+.login__text-input {
+  border: solid 1px #ECECEC;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 45px;
+  padding: 0px;
+  width: 95%; }
+
+.login__forgot-password-link {
+  color: #C1C1C1;
+  font-size: 14px;
+  text-decoration: none; }
+
+.login__submission-input {
+  border: 1px solid #1A95E0;
+  border-radius: 25px;
+  color: #1A95E0;
+  font-size: 14px;
+  height: 45px;
+  width: 100%; }
+
+.login-or-signup {
+  align-items: center;
+  display: grid;
+  max-width: 380px; }
+
+.login-or-signup__bird-icon {
+  background-color: #1A95E0;
+  height: 45px;
+  width: 45px; }
+
+.login-or-signup__title {
+  font-size: 27px;
+  margin: 15px 0px 45px 0px; }
+
+.login-or-signup__subtitle {
+  font-size: 18px;
+  margin: 0px; }
+
+.login-or-signup__button {
+  border-radius: 25px;
+  font-size: 14px;
+  height: 35px;
+  margin-top: 15px;
+  width: 100%; }
+
+.login-or-signup__button--signup {
+  background-color: #1A95E0;
+  border: 1px solid #1A95E0;
+  color: #FFFFFF; }
+
+.login-or-signup__button--login {
+  border: 1px solid #1A95E0;
+  color: #1A95E0; }
+
+.footer {
+  background-color: #FDFDFD;
+  border-top: solid 1px #ECECEC;
+  height: 45px; }
+
+.footer__list {
+  display: grid;
+  grid-template-columns: repeat(18, auto);
+  list-style-type: none;
+  margin: 12px;
+  padding: 0px; }
+
+.footer__list-item {
+  margin: 0px 10px; }
+
+.footer__list-item__link {
+  text-decoration: none;
+  font-size: 12.5px;
+  color: #C3C3C3; }
+
+/*# sourceMappingURL=main.css.map */
