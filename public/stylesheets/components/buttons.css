@@ -1,25 +1,23 @@
-.login__submission-input {
-  border: 1px solid #1A95E0;
-  border-radius: 25px;
-  color: #1A95E0;
-  font-size: 14px;
-  height: 45px;
-  width: 100%; }
-
-.login-or-signup__button {
+.action-button {
   border-radius: 25px;
   font-size: 14px;
-  height: 35px;
-  margin-top: 15px;
   width: 100%; }
 
-.login-or-signup__button--signup {
+.submission-input {
+  height: 45px; }
+
+.action-button__solid {
   background-color: #1A95E0;
   border: 1px solid #1A95E0;
   color: #FFFFFF; }
 
-.login-or-signup__button--login {
+.action-button__hollow {
+  background-color: #FFFFFF;
   border: 1px solid #1A95E0;
   color: #1A95E0; }
+
+.login-or-signup__button {
+  height: 35px;
+  margin-top: 15px; }
 
 /*# sourceMappingURL=buttons.css.map */

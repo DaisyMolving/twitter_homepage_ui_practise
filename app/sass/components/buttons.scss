@@ -1,29 +1,28 @@
 @import '../_variables';
 
-.login__submission-input {
-  border: 1px solid $twitter-blue;
+.action-button {
   border-radius: 25px;
-  color: $twitter-blue;
   font-size: 14px;
+  width: 100%;
+}
+
+.submission-input {
   height: 45px;
-  width: 100%;
 }
 
-.login-or-signup__button {
-  border-radius: 25px;
-  font-size: 14px;
-  height: 35px;
-  margin-top: 15px;
-  width: 100%;
-}
-
-.login-or-signup__button--signup {
+.action-button__solid {
   background-color: $twitter-blue;
   border: 1px solid $twitter-blue;
   color: $white;
 }
 
-.login-or-signup__button--login {
+.action-button__hollow {
+  background-color: $white;
   border: 1px solid $twitter-blue;
   color: $twitter-blue;
+}
+
+.login-or-signup__button {
+  height: 35px;
+  margin-top: 15px;
 }
