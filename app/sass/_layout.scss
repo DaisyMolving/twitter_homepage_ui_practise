@@ -21,14 +21,19 @@
   justify-items: center;
 }
 
-.login {
+.top-third {
   display: grid;
-  grid-template-columns: 3fr 3fr 1fr;
-  margin-top: 30px;
-  width: 80%;
+  grid-template-columns: 1fr 8fr 1fr;
 }
 
-.login-or-signup {
+.three-across__primary {
+  display: grid;
+  grid-column-start: 2;
+  grid-template-columns: 3fr 3fr 1fr;
+  margin-top: 30px;
+}
+
+.middle-third {
   align-items: center;
   display: grid;
   max-width: 380px;

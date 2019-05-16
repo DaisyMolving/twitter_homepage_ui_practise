@@ -23,11 +23,11 @@ body {
   grid-template-rows: 1fr 45px;
   height: 100vh; }
 
-.login-or-signup__title {
+.title {
   font-size: 27px;
   margin: 15px 0px 45px 0px; }
 
-.login-or-signup__subtitle {
+.subtitle {
   font-size: 18px; }
 
 .content {
@@ -48,40 +48,44 @@ body {
 .centered {
   justify-items: center; }
 
-.login {
+.top-third {
   display: grid;
-  grid-template-columns: 3fr 3fr 1fr;
-  margin-top: 30px;
-  width: 80%; }
+  grid-template-columns: 1fr 8fr 1fr; }
 
-.login-or-signup {
+.three-across__primary {
+  display: grid;
+  grid-column-start: 2;
+  grid-template-columns: 3fr 3fr 1fr;
+  margin-top: 30px; }
+
+.middle-third {
   align-items: center;
   display: grid;
   max-width: 380px; }
+
+.main__button {
+  height: 35px;
+  margin-top: 15px; }
+
+.three-across__primary__button {
+  height: 45px; }
 
 .action-button {
   border-radius: 25px;
   font-size: 14px;
   width: 100%; }
 
-.submission-input {
-  height: 45px; }
-
-.action-button__solid {
+.action-button__primary {
   background-color: #1A95E0;
   border: 1px solid #1A95E0;
   color: #FFFFFF; }
 
-.action-button__hollow {
+.action-button__secondary {
   background-color: #FFFFFF;
   border: 1px solid #1A95E0;
   color: #1A95E0; }
 
-.login-or-signup__button {
-  height: 35px;
-  margin-top: 15px; }
-
-.login__text-input {
+.text-input {
   border: solid 1px #ECECEC;
   border-radius: 5px;
   font-size: 14px;
@@ -96,16 +100,16 @@ body {
   height: 150px;
   margin: 0px; }
 
-.login__forgot-password-link {
+.forgot-password-link {
   color: #C3C3C3;
   font-size: 14px; }
 
-.login-or-signup__bird-icon {
+.bird-icon {
   background-color: #1A95E0;
   height: 45px;
   width: 45px; }
 
-.footer {
+footer {
   background-color: #FDFDFD;
   border-top: solid 1px #ECECEC;
   height: 45px; }
@@ -114,8 +118,7 @@ body {
   display: grid;
   grid-template-columns: repeat(18, auto);
   list-style-type: none;
-  margin: 12px;
-  padding: 0px; }
+  margin: 12px; }
 
 .footer__list-item {
   margin: 0px 10px; }

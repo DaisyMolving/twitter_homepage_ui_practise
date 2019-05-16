@@ -1,26 +1,26 @@
+.main__button {
+  height: 35px;
+  margin-top: 15px;
+}
+
+.three-across__primary__button {
+  height: 45px;
+}
+
 .action-button {
   border-radius: 25px;
   font-size: 14px;
   width: 100%;
 }
 
-.submission-input {
-  height: 45px;
-}
-
-.action-button__solid {
+.action-button__primary {
   background-color: $twitter-blue;
   border: 1px solid $twitter-blue;
   color: $white;
 }
 
-.action-button__hollow {
+.action-button__secondary {
   background-color: $white;
   border: 1px solid $twitter-blue;
   color: $twitter-blue;
-}
-
-.login-or-signup__button {
-  height: 35px;
-  margin-top: 15px;
 }
