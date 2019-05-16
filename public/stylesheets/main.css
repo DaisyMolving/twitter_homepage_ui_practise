@@ -17,6 +17,9 @@ body {
 ul {
   list-style: none; }
 
+.margin-top__large {
+  margin-top: 2em; }
+
 body {
   display: grid;
   font-family: "Helvetica Neue";
@@ -56,8 +59,7 @@ body {
 .three-across__primary {
   display: grid;
   grid-column-start: 2;
-  grid-template-columns: 3fr 3fr 1fr;
-  margin-top: 30px; }
+  grid-template-columns: 3fr 3fr 1fr; }
 
 .middle-third {
   align-items: center;
