@@ -1,15 +1,16 @@
 body {
   display: grid;
   font-family: "Helvetica Neue";
+  font-size: 16px;
   grid-template-rows: 1fr 45px;
   height: 100vh;
 }
 
 .title {
-  font-size: 27px;
+  font-size: 1.6875em;
   margin: 15px 0px 45px 0px;
 }
 
 .subtitle {
-  font-size: 18px;
+  font-size: 1.125em;
 }

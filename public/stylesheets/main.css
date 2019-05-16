@@ -20,15 +20,16 @@ ul {
 body {
   display: grid;
   font-family: "Helvetica Neue";
+  font-size: 16px;
   grid-template-rows: 1fr 45px;
   height: 100vh; }
 
 .title {
-  font-size: 27px;
+  font-size: 1.6875em;
   margin: 15px 0px 45px 0px; }
 
 .subtitle {
-  font-size: 18px; }
+  font-size: 1.125em; }
 
 .content {
   display: grid;
@@ -72,7 +73,7 @@ body {
 
 .action-button {
   border-radius: 25px;
-  font-size: 14px;
+  font-size: 0.875em;
   width: 100%; }
 
 .action-button__primary {
@@ -88,21 +89,21 @@ body {
 .text-input {
   border: solid 1px #ECECEC;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 0.875em;
   height: 45px;
   width: 95%; }
 
 .benefits__list {
   align-items: center;
   color: #FFFFFF;
-  font-size: 18px;
+  font-size: 1.125em;
   display: grid;
   height: 150px;
   margin: 0px; }
 
 .forgot-password-link {
   color: #C3C3C3;
-  font-size: 14px; }
+  font-size: 0.875em; }
 
 .bird-icon {
   background-color: #1A95E0;
@@ -124,7 +125,7 @@ footer {
   margin: 0px 10px; }
 
 .footer__list-item__link {
-  font-size: 12.5px;
+  font-size: 0.78125em;
   color: #C3C3C3; }
 
 /*# sourceMappingURL=main.css.map */
