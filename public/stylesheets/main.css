@@ -69,11 +69,10 @@ body {
 .middle-third {
   max-width: 380px; }
 
-.main__button {
-  height: 35px;
-  margin-top: 15px; }
+.button-tall {
+  height: 35px; }
 
-.three-across__primary__button {
+.button-short {
   height: 45px; }
 
 .action-button {
