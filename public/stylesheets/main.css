@@ -62,8 +62,6 @@ body {
   grid-template-columns: 3fr 3fr 1fr; }
 
 .middle-third {
-  align-items: center;
-  display: grid;
   max-width: 380px; }
 
 .main__button {
