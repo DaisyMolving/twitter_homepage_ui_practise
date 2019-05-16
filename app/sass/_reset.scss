@@ -1,0 +1,19 @@
+html, body, div, h1, h2, h3, a, ul, li, footer, header, section, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+a {
+  text-decoration: none;
+}
+footer, header, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ul {
+	list-style: none;
+}
